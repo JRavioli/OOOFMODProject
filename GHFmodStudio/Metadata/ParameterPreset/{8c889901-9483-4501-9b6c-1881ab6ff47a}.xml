@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{8c889901-9483-4501-9b6c-1881ab6ff47a}">
+		<property name="name">
+			<value>GuardReact</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9d07c746-eae1-4fac-8948-608beaf9284d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2e03ac86-a75c-4ccb-85a0-cb5ca529c0f6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2e03ac86-a75c-4ccb-85a0-cb5ca529c0f6}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Gasp</value>
+			<value>Value B</value>
+			<value>Value C</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

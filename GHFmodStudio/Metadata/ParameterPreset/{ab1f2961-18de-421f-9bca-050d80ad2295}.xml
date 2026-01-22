@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{ab1f2961-18de-421f-9bca-050d80ad2295}">
+		<property name="name">
+			<value>PA</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9d07c746-eae1-4fac-8948-608beaf9284d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{32114e03-61b7-47a0-a842-636501c7bab7}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{32114e03-61b7-47a0-a842-636501c7bab7}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>ArtHistory</value>
+			<value>NoTouchy</value>
+			<value>NowClosed</value>
+			<value>Welcome</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
