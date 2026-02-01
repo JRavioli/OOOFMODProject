@@ -64,7 +64,7 @@
 	<object class="MarkerTrack" id="{e968b195-e8c8-48e2-95b3-e876eeb70bbf}" />
 	<object class="GroupTrack" id="{7df57dfd-2206-404a-a34b-13ef8abc9621}">
 		<relationship name="modules">
-			<destination>{0d3a1b8c-2a0e-47b3-8271-36678d4df874}</destination>
+			<destination>{e9b6716f-c16f-42f2-8e0b-64e1fb1a2e6d}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f0e60701-4d71-45d7-98c4-ca0dbd60c630}</destination>
@@ -72,7 +72,7 @@
 	</object>
 	<object class="Timeline" id="{6032bfc8-27df-468c-8dbc-b46cc618b005}">
 		<relationship name="modules">
-			<destination>{0d3a1b8c-2a0e-47b3-8271-36678d4df874}</destination>
+			<destination>{e9b6716f-c16f-42f2-8e0b-64e1fb1a2e6d}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{3c8f4c37-3541-4166-8a20-854169ecef99}</destination>
@@ -95,12 +95,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a742577a-7203-4df8-8a9b-3a4541dc7a39}" />
-	<object class="SingleSound" id="{0d3a1b8c-2a0e-47b3-8271-36678d4df874}">
+	<object class="SingleSound" id="{e9b6716f-c16f-42f2-8e0b-64e1fb1a2e6d}">
 		<property name="length">
-			<value>2.8456916099773242</value>
+			<value>4.4253741496598646</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.20000000000000001</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{8b27e046-404e-467d-a28d-9741636210d5}</destination>
+			<destination>{ec9b5ae4-154d-433a-bb8b-912a9f729569}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f0e60701-4d71-45d7-98c4-ca0dbd60c630}">
@@ -122,10 +125,10 @@
 	</object>
 	<object class="LoopRegion" id="{3c8f4c37-3541-4166-8a20-854169ecef99}">
 		<property name="position">
-			<value>0.5</value>
+			<value>0.55000000000000004</value>
 		</property>
 		<property name="length">
-			<value>2.3456916099773242</value>
+			<value>0.35000000000000009</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{6032bfc8-27df-468c-8dbc-b46cc618b005}</destination>
@@ -154,10 +157,16 @@
 	<object class="MixerBusFader" id="{e6e177ab-1799-4ab1-b55d-b9ab932cd437}" />
 	<object class="CompressorEffect" id="{49027978-c0ea-40d2-a5ee-76b79eb74ad9}">
 		<property name="threshold">
-			<value>-26.5</value>
+			<value>-36.5</value>
 		</property>
 		<property name="ratio">
-			<value>6.5999999</value>
+			<value>16</value>
+		</property>
+		<property name="attackTime">
+			<value>8.19999981</value>
+		</property>
+		<property name="releaseTime">
+			<value>880</value>
 		</property>
 	</object>
 </objects>
