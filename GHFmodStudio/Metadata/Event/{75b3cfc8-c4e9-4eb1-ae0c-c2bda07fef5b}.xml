@@ -79,6 +79,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c37d7cb3-41e5-4cc7-bbb8-da5d48c9fa2b}">
+		<property name="pitch">
+			<value>1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{7300b35d-e42d-469b-b1ed-a096fb383dfd}</destination>
 		</relationship>
@@ -108,7 +111,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f0e60701-4d71-45d7-98c4-ca0dbd60c630}">
 		<property name="volume">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -149,6 +152,8 @@
 		<relationship name="effects">
 			<destination>{e6e177ab-1799-4ab1-b55d-b9ab932cd437}</destination>
 			<destination>{49027978-c0ea-40d2-a5ee-76b79eb74ad9}</destination>
+			<destination>{6d145153-46b4-4dec-99f4-f0f265b57094}</destination>
+			<destination>{eaaf397b-530e-4be6-82a9-e565c5d13ea6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c51334a4-8520-41f4-98dd-67ca893372af}" />
@@ -157,16 +162,38 @@
 	<object class="MixerBusFader" id="{e6e177ab-1799-4ab1-b55d-b9ab932cd437}" />
 	<object class="CompressorEffect" id="{49027978-c0ea-40d2-a5ee-76b79eb74ad9}">
 		<property name="threshold">
-			<value>-36.5</value>
+			<value>-27</value>
 		</property>
 		<property name="ratio">
-			<value>16</value>
+			<value>50</value>
 		</property>
 		<property name="attackTime">
-			<value>8.19999981</value>
+			<value>4.4000001</value>
 		</property>
 		<property name="releaseTime">
-			<value>880</value>
+			<value>1600</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{6d145153-46b4-4dec-99f4-f0f265b57094}">
+		<property name="lowGain">
+			<value>-17</value>
+		</property>
+		<property name="highGain">
+			<value>-10.5</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="ChorusEffect" id="{eaaf397b-530e-4be6-82a9-e565c5d13ea6}">
+		<property name="rate">
+			<value>0.049999997</value>
+		</property>
+		<property name="depth">
+			<value>28</value>
+		</property>
+		<property name="mix">
+			<value>21</value>
 		</property>
 	</object>
 </objects>
