@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{9dbae4e7-3016-48b6-8b5b-b812b748e04b}">
+		<property name="assetPath">
+			<value>BGM Official/Title Screen/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7a8741bd-7734-4323-b476-3e6b3b7afdd9}</destination>
+		</relationship>
+	</object>
+</objects>
