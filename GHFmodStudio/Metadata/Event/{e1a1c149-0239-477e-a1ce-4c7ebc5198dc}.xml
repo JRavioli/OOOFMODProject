@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e1a1c149-0239-477e-a1ce-4c7ebc5198dc}">
 		<property name="name">
-			<value>UIClick</value>
+			<value>UIHover</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{44eb1bf8-1433-4306-956c-c84428399c8a}" />
 	<object class="GroupTrack" id="{c39bb945-f1b5-49e8-a9bf-4cf6d68c1396}">
 		<relationship name="modules">
-			<destination>{3d5cf7ac-edc9-46fe-bd30-9268d2b62d02}</destination>
+			<destination>{f10058bb-ca12-4ddf-ae84-f268a12bd1c4}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{cbe6533e-dcec-479f-a7a4-9cc4beef982a}</destination>
@@ -68,10 +68,13 @@
 	</object>
 	<object class="Timeline" id="{91abe105-713d-42d0-8345-d69035551e58}">
 		<relationship name="modules">
-			<destination>{3d5cf7ac-edc9-46fe-bd30-9268d2b62d02}</destination>
+			<destination>{f10058bb-ca12-4ddf-ae84-f268a12bd1c4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e6703020-b2d4-424e-bade-13690d53db37}">
+		<property name="pitch">
+			<value>4.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{0a8d443e-ea10-4d1f-ae56-90e50343c435}</destination>
 		</relationship>
@@ -88,12 +91,21 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{224f40f4-2207-4e80-ab69-0c009f039785}" />
-	<object class="SingleSound" id="{3d5cf7ac-edc9-46fe-bd30-9268d2b62d02}">
+	<object class="SingleSound" id="{f10058bb-ca12-4ddf-ae84-f268a12bd1c4}">
+		<property name="length">
+			<value>0.32990929705215416</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.029999999999999999</value>
+		</property>
 		<relationship name="audioFile">
-			<destination>{8f2de66b-6a62-47bf-ab48-d85f62172463}</destination>
+			<destination>{591e8f24-82b9-4620-81a3-fe7ca9f28800}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{cbe6533e-dcec-479f-a7a4-9cc4beef982a}">
+		<property name="volume">
+			<value>-4.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -110,6 +122,8 @@
 	<object class="MixerBusEffectChain" id="{0a8d443e-ea10-4d1f-ae56-90e50343c435}">
 		<relationship name="effects">
 			<destination>{85dadf04-4781-4315-a2dd-6b320ccd8b95}</destination>
+			<destination>{c35c3dc5-802f-4359-86da-fd35e21b15d0}</destination>
+			<destination>{ab3ab67a-7ae3-467d-abcc-70b7af0a6f5f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4b91b243-b79a-4f24-a69c-1ed7920a016d}" />
@@ -121,5 +135,39 @@
 	</object>
 	<object class="MixerBusPanner" id="{e23935d3-9f75-4cb8-b046-9d03d652f43a}" />
 	<object class="MixerBusFader" id="{85dadf04-4781-4315-a2dd-6b320ccd8b95}" />
+	<object class="SFXReverbEffect" id="{c35c3dc5-802f-4359-86da-fd35e21b15d0}">
+		<property name="decayTime">
+			<value>400</value>
+		</property>
+		<property name="earlyDelay">
+			<value>2</value>
+		</property>
+		<property name="lateDelay">
+			<value>3</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>83</value>
+		</property>
+		<property name="highCut">
+			<value>6050</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>88</value>
+		</property>
+		<property name="wetLevel">
+			<value>-9.39999962</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{ab3ab67a-7ae3-467d-abcc-70b7af0a6f5f}">
+		<property name="lowGain">
+			<value>-17</value>
+		</property>
+		<property name="midGain">
+			<value>2.5</value>
+		</property>
+		<property name="highGain">
+			<value>1.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{aab56077-0a74-48d4-b3af-959dcae2735d}" />
 </objects>
