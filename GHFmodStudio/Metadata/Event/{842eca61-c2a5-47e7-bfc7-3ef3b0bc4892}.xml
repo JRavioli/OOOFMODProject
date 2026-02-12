@@ -102,7 +102,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6253bb6d-560d-4879-bcba-45c370ffd1e3}">
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-7.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -121,6 +121,7 @@
 		<relationship name="effects">
 			<destination>{217cc283-a475-4b43-b882-fbb3ae189180}</destination>
 			<destination>{d57637b8-8394-4d2e-a44d-5768f5aedac7}</destination>
+			<destination>{77a9f114-38e8-47ba-bf8d-bfe7f7d8772a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{53f544c5-f7c0-42a3-ba4d-610b6149e6dd}" />
@@ -129,15 +130,44 @@
 		<relationship name="effects">
 			<destination>{e8304467-dbff-4f56-88ec-16f10b687084}</destination>
 			<destination>{4c4a327d-0ba3-45fa-b0cd-8bc54f922b99}</destination>
+			<destination>{f86df418-2f58-4764-99e0-3d6e9d0962f6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b0768cfd-3bbf-4744-8b80-fee6f64daa25}" />
 	<object class="MixerBusFader" id="{217cc283-a475-4b43-b882-fbb3ae189180}" />
 	<object class="SpatialiserEffect" id="{d57637b8-8394-4d2e-a44d-5768f5aedac7}" />
+	<object class="SFXReverbEffect" id="{77a9f114-38e8-47ba-bf8d-bfe7f7d8772a}">
+		<property name="decayTime">
+			<value>400</value>
+		</property>
+		<property name="earlyDelay">
+			<value>2</value>
+		</property>
+		<property name="lateDelay">
+			<value>3</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>83</value>
+		</property>
+		<property name="highCut">
+			<value>6050</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>88</value>
+		</property>
+		<property name="wetLevel">
+			<value>-9.39999962</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{e8304467-dbff-4f56-88ec-16f10b687084}" />
 	<object class="SFXReverbEffect" id="{4c4a327d-0ba3-45fa-b0cd-8bc54f922b99}">
 		<property name="decayTime">
 			<value>750</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{f86df418-2f58-4764-99e0-3d6e9d0962f6}">
+		<property name="highGain">
+			<value>-9</value>
 		</property>
 	</object>
 </objects>

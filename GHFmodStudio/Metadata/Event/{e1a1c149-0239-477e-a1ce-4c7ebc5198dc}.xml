@@ -160,7 +160,7 @@
 	</object>
 	<object class="ThreeEQEffect" id="{ab3ab67a-7ae3-467d-abcc-70b7af0a6f5f}">
 		<property name="lowGain">
-			<value>-17</value>
+			<value>-6</value>
 		</property>
 		<property name="midGain">
 			<value>2.5</value>
