@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{d6d78798-4602-4c4a-a235-58177d1106e3}">
+		<property name="name">
+			<value>Hiding</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9d07c746-eae1-4fac-8948-608beaf9284d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e5e7398f-d9f6-4c05-8d0e-45d33fa5e5a9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e5e7398f-d9f6-4c05-8d0e-45d33fa5e5a9}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
