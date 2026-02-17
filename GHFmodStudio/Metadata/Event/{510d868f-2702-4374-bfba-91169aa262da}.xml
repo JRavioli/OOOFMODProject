@@ -108,7 +108,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{4f9ff8bb-519f-4555-8604-e9169dba0612}">
 		<property name="volume">
-			<value>8</value>
+			<value>3</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -142,6 +142,7 @@
 			<destination>{e96fe916-765c-46c7-8b33-f73ae70b7d45}</destination>
 			<destination>{7a29cc39-61a9-4d17-bdb6-5df867addecb}</destination>
 			<destination>{3589a126-8dd8-4980-a942-7f4961436608}</destination>
+			<destination>{cb7ef88b-ef81-4692-939c-e3fe4e2473d3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f0b2b732-c3f4-4a54-a0a3-4e3956d080ca}" />
@@ -175,6 +176,14 @@
 		</property>
 		<property name="wetLevel">
 			<value>-9.39999962</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{cb7ef88b-ef81-4692-939c-e3fe4e2473d3}">
+		<property name="lowGain">
+			<value>-80</value>
+		</property>
+		<property name="midGain">
+			<value>-12.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{8e1fd520-e0c2-40ff-b08f-cf1293111069}" />
