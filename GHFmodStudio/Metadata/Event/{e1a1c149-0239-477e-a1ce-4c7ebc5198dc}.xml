@@ -136,6 +136,9 @@
 	<object class="MixerBusPanner" id="{e23935d3-9f75-4cb8-b046-9d03d652f43a}" />
 	<object class="MixerBusFader" id="{85dadf04-4781-4315-a2dd-6b320ccd8b95}" />
 	<object class="SFXReverbEffect" id="{c35c3dc5-802f-4359-86da-fd35e21b15d0}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="decayTime">
 			<value>400</value>
 		</property>
