@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{762e7c2b-846f-4499-9386-3d2405020fc0}">
+		<property name="name">
+			<value>PACanteen</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9d07c746-eae1-4fac-8948-608beaf9284d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f6c28110-193e-4ac9-9579-2c759ea1c144}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f6c28110-193e-4ac9-9579-2c759ea1c144}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
