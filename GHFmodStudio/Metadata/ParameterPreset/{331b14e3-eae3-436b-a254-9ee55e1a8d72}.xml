@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{331b14e3-eae3-436b-a254-9ee55e1a8d72}">
+		<property name="name">
+			<value>PALobbyNightOne</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9d07c746-eae1-4fac-8948-608beaf9284d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{588f619e-9c3f-43b8-b925-bfe7dfd96563}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{588f619e-9c3f-43b8-b925-bfe7dfd96563}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
