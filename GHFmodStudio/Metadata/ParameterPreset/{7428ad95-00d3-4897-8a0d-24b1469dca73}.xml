@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{7428ad95-00d3-4897-8a0d-24b1469dca73}">
+		<property name="name">
+			<value>VLParlor</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9d07c746-eae1-4fac-8948-608beaf9284d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{086ce04e-60b6-411c-aa95-3697dd78365c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{086ce04e-60b6-411c-aa95-3697dd78365c}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>9</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

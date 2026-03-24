@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{40a78ac6-e258-4e9c-895f-86d3c53bf280}">
+		<property name="name">
+			<value>VLLobbyNightOne</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9d07c746-eae1-4fac-8948-608beaf9284d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3799d699-4189-4808-a3d4-d8ded0e33bfe}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3799d699-4189-4808-a3d4-d8ded0e33bfe}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
