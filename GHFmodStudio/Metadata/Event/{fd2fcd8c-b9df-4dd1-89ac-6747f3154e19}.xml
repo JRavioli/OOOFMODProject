@@ -5,7 +5,7 @@
 			<value>SliderPickup</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e5d95422-0ccb-472d-9c82-aa55db57c1c3}</destination>
@@ -59,12 +59,22 @@
 	<object class="EventAutomatableProperties" id="{cc82d85e-8edf-43c2-b712-72dd045aba91}" />
 	<object class="MarkerTrack" id="{bbe4685a-d041-4673-86f9-d7acf9d8af88}" />
 	<object class="GroupTrack" id="{4e644468-3765-4f19-a152-b8ea779958d8}">
+		<relationship name="modules">
+			<destination>{a60189d1-fa2b-4397-a81a-5efb09a2b477}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{bb978abd-37e2-4985-a3a2-f7197270138e}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{2ac6c657-ca4c-4fb0-a91c-7977e9583714}" />
+	<object class="Timeline" id="{2ac6c657-ca4c-4fb0-a91c-7977e9583714}">
+		<relationship name="modules">
+			<destination>{a60189d1-fa2b-4397-a81a-5efb09a2b477}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{b6551946-51e4-4640-b04e-12f1866a11e4}">
+		<property name="pitch">
+			<value>-0.900000036</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{f84cdb22-a50a-49a2-9c81-fa0cf63a1d91}</destination>
 		</relationship>
@@ -81,6 +91,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f0f94639-a5d3-4fd6-90ed-bcbae5310228}" />
+	<object class="SingleSound" id="{a60189d1-fa2b-4397-a81a-5efb09a2b477}">
+		<property name="length">
+			<value>0.32990929705215416</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.029999999999999999</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{591e8f24-82b9-4620-81a3-fe7ca9f28800}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{bb978abd-37e2-4985-a3a2-f7197270138e}">
 		<property name="name">
 			<value>Audio 1</value>
