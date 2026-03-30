@@ -5,7 +5,7 @@
 			<value>VLLobbyNightTwo</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{884be132-a164-410f-a191-1f8947957dd2}</destination>
