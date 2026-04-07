@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{95cf5f35-dff4-43f0-b55a-e9f8cac0c560}">
+	<object class="AudioFile" id="{aee3230a-4719-4e5a-8fb1-68256e235dad}">
 		<property name="assetPath">
-			<value>BGM Official/First Wing/(Master) (Loop) (Hiding) Library 3:4- Geist Heist.ogg</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>BGM Official/First Wing/(Master) (First) (Hiding) Library- Geist Heist.ogg</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>85.987250000000003</value>
+			<value>10</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{7a8741bd-7734-4323-b476-3e6b3b7afdd9}</destination>
