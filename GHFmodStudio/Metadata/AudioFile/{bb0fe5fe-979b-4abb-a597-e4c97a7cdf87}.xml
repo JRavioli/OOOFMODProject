@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{bb0fe5fe-979b-4abb-a597-e4c97a7cdf87}">
+		<property name="assetPath">
+			<value>BGM Official/First Wing/(Master) (First) Library- Geist Heist.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>18.344416666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7a8741bd-7734-4323-b476-3e6b3b7afdd9}</destination>
+		</relationship>
+	</object>
+</objects>
