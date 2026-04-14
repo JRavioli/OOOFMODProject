@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{6bbac1d8-f2b4-435a-858a-acaca240f9ce}">
+		<property name="assetPath">
+			<value>OLines/OBedroomTetherOne.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>5.9965532879818593</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7a8741bd-7734-4323-b476-3e6b3b7afdd9}</destination>
+		</relationship>
+	</object>
+</objects>

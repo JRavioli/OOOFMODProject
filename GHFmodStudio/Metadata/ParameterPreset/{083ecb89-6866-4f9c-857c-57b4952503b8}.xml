@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{083ecb89-6866-4f9c-857c-57b4952503b8}">
+		<property name="name">
+			<value>VLGallery</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9d07c746-eae1-4fac-8948-608beaf9284d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{746c5fdb-c608-4a97-8e9e-3d37b3833c6d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{746c5fdb-c608-4a97-8e9e-3d37b3833c6d}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>8</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
