@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{b137be11-aa9c-4f5c-9698-5f3540c17155}">
+		<property name="assetPath">
+			<value>BGM Official/Bedroom/(Master) (Repeats) - Bedroom Wing- Geist Heist.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>86.557374999999993</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7a8741bd-7734-4323-b476-3e6b3b7afdd9}</destination>
+		</relationship>
+	</object>
+</objects>
