@@ -16,15 +16,24 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>3</value>
+			<value>6</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>Gasp</value>
-			<value>Value B</value>
-			<value>Value C</value>
+			<value>Huh</value>
+			<value>Who's there</value>
+			<value>Ouch</value>
+			<value>Get that ghost</value>
+			<value>Where did he go</value>
+			<value>Forget it</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
 		</property>
 	</object>
 </objects>
