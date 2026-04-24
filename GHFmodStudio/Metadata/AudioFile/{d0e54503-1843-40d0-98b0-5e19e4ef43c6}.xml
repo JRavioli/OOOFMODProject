@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{1ddf49a3-374d-418e-ac09-4ad4ab79217b}">
+	<object class="AudioFile" id="{d0e54503-1843-40d0-98b0-5e19e4ef43c6}">
 		<property name="assetPath">
-			<value>BGM Official/(Master) Opening Cutscene- Geist Heist.ogg</value>
+			<value>BGM Official/Tutorial/(Master) (Hiding) (Repeat)Tutorial Hall- Geist Heist.ogg</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>141.56950000000001</value>
+			<value>48.813541666666666</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{7a8741bd-7734-4323-b476-3e6b3b7afdd9}</destination>
