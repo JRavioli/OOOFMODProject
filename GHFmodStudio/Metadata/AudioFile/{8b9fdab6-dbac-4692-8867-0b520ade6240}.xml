@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8b9fdab6-dbac-4692-8867-0b520ade6240}">
+		<property name="assetPath">
+			<value>708103__rinaldobowles56__hard-ball-on-table-hard-bowls-ball-rolling-on-wooden-table.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.5299999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7a8741bd-7734-4323-b476-3e6b3b7afdd9}</destination>
+		</relationship>
+	</object>
+</objects>
